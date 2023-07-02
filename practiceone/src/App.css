@@ -1,0 +1,122 @@
+.heading
+{
+  background-image: linear-gradient(45deg, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+text-align: center;
+}
+body{
+    background-color: rgb(194, 194, 235);
+}
+.signup
+{
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 10px;
+  font-size: larger;
+}
+
+/* .nav{
+  position:fixed;
+  top: 0;
+  z-index: 1;
+ 
+} */
+/* .row row-cols-1 row-cols-md-2 g-4
+{
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px; 
+} */
+.animedetail
+{
+ 
+ 
+  display: grid;
+ 
+  grid-template-columns: 400px 410px 400px  ;
+  grid-gap: 60px; 
+
+}
+/* .row row-cols-1 row-cols-md-2 g-4
+{
+  width: 300px;
+} */
+#home
+{
+  font-size: larger;
+  font-weight: bolder;
+  color: rgb(5, 5, 99);
+}
+#share
+{
+  font-weight: 500;
+  color: rgb(15, 116, 2);
+}
+#buy 
+{
+  font-weight: 500;
+  color: rgb(2, 103, 116);
+}
+#view
+{
+  font-weight: 500;
+  color: rgb(150, 3, 142);
+}
+#edit
+{
+  font-weight: 200;
+  color: rgb(240, 6, 25);
+}
+
+.login
+{
+  background-color: rgb(241, 240, 240);
+  width: 500px;
+  height: 400px;
+  margin-left: 430px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.buo
+{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.log{
+  text-align: center;
+  background-image: linear-gradient(45deg, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#cc
+{
+  margin-top: 50px;
+}
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this value to fit your needs */
+}
+.loading-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar 
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+.all
+{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
